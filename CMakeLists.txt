@@ -17,3 +17,5 @@ add_executable(myqtbasedemo
   main.cpp
 )
 target_link_libraries(myqtbasedemo Qt5::Core)
+
+install(TARGETS myqtbasedemo DESTINATION bin)
